@@ -4,7 +4,7 @@ javaweb学习书
 
 ## 1.1  基础知识8h 4.5-4.7：操作系统linux，网络（TCP/UDP,HTTP,HTTPS,爬虫Nutch,Crawler4j），数据结构，数据库mysql oracle,编译原理（Scala，groovy）
 
-## 1.2  企业知识
+## 1.2  高级知识
 
 ### 1.2.1 基础知识 8h 4.10-4.12：java，IO,集合\(GUAVA,args4j,apache commons\)，并发\(akka,quasar\)，内存（visualVM,JProfiler），性能
 
@@ -31,6 +31,4 @@ javaweb学习书
 18:30-19:30 1
 
 22:00-23:30 1.5
-
-
 
