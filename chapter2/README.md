@@ -1,11 +1,11 @@
-# 1.2  ¸ß¼¶ÖªÊ¶
+# 1.2  é«˜çº§çŸ¥è¯†
 
-## 1.2.1 »ù´¡ÖªÊ¶ 8h 4.10-4.12£ºjava£¬IO,¼¯ºÏ\(GUAVA,args4j,apache commons\)£¬²¢·¢\(akka,quasar\)£¬ÄÚ´æ£¨visualVM,JProfiler£©£¬ĞÔÄÜ
+## 1.2.1 åŸºç¡€çŸ¥è¯† 8h 4.10-4.12ï¼šjavaï¼ŒIO,é›†åˆ\(GUAVA,args4j,apache commons\)ï¼Œå¹¶å‘\(akka,quasar\)ï¼Œå†…å­˜ï¼ˆvisualVM,JProfilerï¼‰ï¼Œæ€§èƒ½
 
-## 1.2.2 ÖĞ¼ä¼ş4.13-4.18 12h£ºredis/mongodb/mecache£¬mq/kafka£¬tomcat/jetty,nodejs
+## 1.2.2 ä¸­é—´ä»¶4.13-4.18 12hï¼šredis/mongodb/mecacheï¼Œmq/kafkaï¼Œtomcat/jetty,nodejs
 
-## 1.2.3 ¿ò¼Ü 12h£ºspringmvc£¬mybatis/hibernate£¬springboot£¬dubbo/springcloud£¬quartz
+## 1.2.3 æ¡†æ¶ 12hï¼šspringmvcï¼Œmybatis/hibernateï¼Œspringbootï¼Œdubbo/springcloudï¼Œquartz
 
-## 1.2.4 ´óÊı¾İ4.19-4.24 12h£º hadoop£¬storm/spark£¬hive£¬hbase£¬python£¬kylin/impala,Mesos,cassandra
+## 1.2.4 å¤§æ•°æ®4.19-4.24 12hï¼š hadoopï¼Œstorm/sparkï¼Œhiveï¼Œhbaseï¼Œpythonï¼Œkylin/impala,Mesos,cassandra
 
-## 1.2.5 ·Ö²¼Ê½4.25-4.28 16h: »º´æ£¬session£¬¼¯Èº£¬·Ö¿â/·Ö±í£¬·Ö²¼Ê½ÊÂÎñ£¬RPC£¨netty£¬mina£©,zookeeper/paxios,docker
+## 1.2.5 åˆ†å¸ƒå¼4.25-4.28 16h: ç¼“å­˜ï¼Œsessionï¼Œé›†ç¾¤ï¼Œåˆ†åº“/åˆ†è¡¨ï¼Œåˆ†å¸ƒå¼äº‹åŠ¡ï¼ŒRPCï¼ˆnettyï¼Œminaï¼‰,zookeeper/paxios,docker

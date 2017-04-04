@@ -1,1 +1,1 @@
-»ù´¡ÖªÊ¶8h 4.5-4.7£º²Ù×÷ÏµÍ³linux£¬ÍøÂç£¨TCP/UDP,HTTP,HTTPS,ÅÀ³æNutch,Crawler4j£©£¬Êý¾Ý½á¹¹£¬Êý¾Ý¿âmysql oracle,±àÒëÔ­Àí£¨Scala£¬groovy£©
+åŸºç¡€çŸ¥è¯†8h 4.5-4.7ï¼šæ“ä½œç³»ç»Ÿlinuxï¼Œç½‘ç»œï¼ˆTCP/UDP,HTTP,HTTPS,çˆ¬è™«Nutch,Crawler4jï¼‰ï¼Œæ•°æ®ç»“æž„ï¼Œæ•°æ®åº“mysql oracle,ç¼–è¯‘åŽŸç†ï¼ˆScalaï¼Œgroovyï¼‰
