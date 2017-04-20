@@ -14,12 +14,13 @@
 * [如何终止线程](/chapter2/javaduo-xian-cheng.md#quit)
 
 * [Daemon线程的作用？](/chapter2/javaduo-xian-cheng.md#Daemon)
-* ConcurrentHashMap的实现?什么操作需要加锁？
+
+* [ConcurrentHashMap的实现?什么操作需要加锁？](/chapter2/javaduo-xian-cheng.md#hashmap)
 * CopyOnWriteArrayList的原理
-* ThreadLocal的实现
-* CountDownLatch与CyclicBarrier的区别
-* Semaphore信号量的作用
-* Callable与Future
+* [ThreadLocal的实现](/chapter2/javaduo-xian-cheng.md#threadlocal)
+* [CountDownLatch与CyclicBarrier的区别](#countdownlatch与cyclicbarrier都是在一个或多个线程等待其他线程完成操作，join。cyclicbarrier循环栅栏可以多次使用)
+* [Semaphore信号量的作用](/chapter2/javaduo-xian-cheng.md#semaphore)
+* [Callable与Future](#callable)
 * 线程池有哪些？线程池的实现原理
 * 无锁的实现方式
 * Disruptor框架的实现原理
@@ -46,6 +47,18 @@
 ##### 通过状态控制让方法退出 {#quit}
 
 ##### Daemon守护线程是后台管理线程，用于支持其他线程工作，其他线程退出了，后台线程自动退出 {#daemon}
+
+##### HashMap多线程会出现闭环问题，HashTable单锁会有性能问题。并发HashMap采用分段锁技术，segment和HashEntry即数组与链表，读取整个hashmap的size时会读取每个段的count （volatile类型的变量），如果modcout发生了变化，则需要加锁。 {#hashmap}
+
+##### 每个ThreadLocal变量都有一个map，key就是当前线程，value就是值。get方法取值，set方法设置值 {#threadlocal}
+
+##### CountDownLatch与CyclicBarrier都是在一个或多个线程等待其他线程完成操作，join。CyclicBarrier循环栅栏可以多次使用
+
+##### Semaphore信号量控制线程数量为N，如控制一个线程池（线程数大于N）中连接数据库的线程数量 {#semaphore}
+
+##### callable可以返回结果，Future不会返回结果 {#callable}
+
+
 
 
 
