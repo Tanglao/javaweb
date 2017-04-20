@@ -1,4 +1,4 @@
-* volatile原理及应用
+*  \[volatile原理及应用\]\(\#volatile原理及应用\)
 * synchronized原理
 * java内存模型
 * ABA问题怎么解决的？
@@ -21,6 +21,8 @@
 * 公平锁的实现、读写锁的实现
 * AIO与NIO的区别
 * Actor并发模型的定义
+
+&lt;span id = "volatile原理及应用"&gt;volatile原理及应用&lt;/span&gt;
 
 
 
