@@ -1,9 +1,10 @@
-* \[volatile原理及应用\]\(\#test\)
+* [volatile原理及应用](/chapter2/javaduo-xian-cheng.md#test)
 * synchronized原理
 
 * java内存模型
 
 * ABA问题怎么解决的？
+
 * 导致重排序的操作有哪些？
 * happens-before、as if serial语义是什么意思
 * 线程安全的单例
