@@ -12,6 +12,7 @@
 * [线程安全的单例](/chapter2/javaduo-xian-cheng.md#single)
 
 * [如何终止线程](/chapter2/javaduo-xian-cheng.md#quit)
+
 * [Daemon线程的作用？](/chapter2/javaduo-xian-cheng.md#Daemon)
 * ConcurrentHashMap的实现?什么操作需要加锁？
 * CopyOnWriteArrayList的原理
@@ -38,7 +39,7 @@
 
 ##### 编译器优化、处理器指令并行执行、内存系统的重排序 {#chongpaixu}
 
-##### hb 保证A操作可见于B，asifserail 不管怎么重排序，执行结果不会变 {#hb}
+##### hb 保证A操作可见于B，asifserial 不管怎么重排序，执行结果不会变 {#hb}
 
 ##### 懒汉式或者基于volatile的双重锁 {#single}
 
