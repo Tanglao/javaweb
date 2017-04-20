@@ -1,9 +1,8 @@
-
-
-* \[ volatile原理及应用\]\(\#test\)
+* \[volatile原理及应用\]\(\#test\)
 * synchronized原理
 
 * java内存模型
+
 * ABA问题怎么解决的？
 * 导致重排序的操作有哪些？
 * happens-before、as if serial语义是什么意思
@@ -26,12 +25,6 @@
 * Actor并发模型的定义
 
 ### volatile变量的写操作会使其他处理器的缓存行无效，其他处理器缓存行无效了就必须要从内存重新读 {#test}
-
-
-
-
-
-
 
 
 
