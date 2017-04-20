@@ -10,8 +10,9 @@
 * [happens-before、as if serial语义是什么意思](/chapter2/javaduo-xian-cheng.md#hb)
 
 * [线程安全的单例](/chapter2/javaduo-xian-cheng.md#single)
+
 * [如何终止线程](/chapter2/javaduo-xian-cheng.md#quit)
-* Daemon线程的作用？
+* [Daemon线程的作用？](/chapter2/javaduo-xian-cheng.md#Daemon)
 * ConcurrentHashMap的实现?什么操作需要加锁？
 * CopyOnWriteArrayList的原理
 * ThreadLocal的实现
@@ -43,9 +44,7 @@
 
 ##### 通过状态控制让方法退出 {#quit}
 
-
-
-
+##### Daemon守护线程是后台管理线程，用于支持其他线程工作，其他线程退出了，后台线程自动退出 {#daemon}
 
 
 
