@@ -26,8 +26,9 @@
 * [Semaphore信号量的作用](/chapter2/javaduo-xian-cheng.md#semaphore)
 
 * [Callable与Future](#callable)
+
 * [线程池有哪些？线程池的实现原理](#threadpool)
-* 无锁的实现方式
+* [无锁的实现方式](#单线程、cas)
 * Disruptor框架的实现原理
 * 什么是AQS
 * 公平锁的实现、读写锁的实现
@@ -65,6 +66,8 @@
 ##### CopyOnWriteArrayList适用多读少写。写时会对list进行一个拷贝，拷贝前后的list里面的元素指向同一个引用。是一种读写分离的思想，保证最终一致性 {#copyonwritearraylist}
 
 ##### 线程池有可缓存的线程池cachedThreadPool，可以灵活回收与创建线程，FixedThreadPool 固定数量线程池，ScheduledThreadPool 周期性线程池，SingleThreadPool 单一线程池，保证只有一个线程执行，按先进先出处理任务。Executors工厂类创建线程池，Executor线程池接口。都是继承自ThreadPoolExecutor，里面维护了一个阻塞队列（有界队列、无界队列），可以采取拒绝策略：抛弃本身、抛弃旧任务，跑出异常，给当前线程跑。 {#threadpool}
+
+##### 单线程、cas
 
 
 
