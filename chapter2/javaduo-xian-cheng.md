@@ -24,11 +24,11 @@
 * [CountDownLatch与CyclicBarrier的区别](#countdownlatch与cyclicbarrier都是在一个或多个线程等待其他线程完成操作，join。cyclicbarrier循环栅栏可以多次使用)
 
 * [Semaphore信号量的作用](/chapter2/javaduo-xian-cheng.md#semaphore)
+
 * [Callable与Future](#callable)
 * [线程池有哪些？线程池的实现原理](#threadpool)
 * 无锁的实现方式
 * Disruptor框架的实现原理
-* 阻塞队列的实现原理
 * 什么是AQS
 * 公平锁的实现、读写锁的实现
 * AIO与NIO的区别
