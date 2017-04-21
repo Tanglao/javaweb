@@ -18,6 +18,7 @@
 * [ConcurrentHashMap的实现?什么操作需要加锁？](/chapter2/javaduo-xian-cheng.md#hashmap)
 
 * [CopyOnWriteArrayList的原理](#copyonwritearraylist)
+
 * [ThreadLocal的实现](/chapter2/javaduo-xian-cheng.md#threadlocal)
 * [CountDownLatch与CyclicBarrier的区别](#countdownlatch与cyclicbarrier都是在一个或多个线程等待其他线程完成操作，join。cyclicbarrier循环栅栏可以多次使用)
 * [Semaphore信号量的作用](/chapter2/javaduo-xian-cheng.md#semaphore)
@@ -61,7 +62,7 @@
 
 ##### CopyOnWriteArrayList适用多读少写。写时会对list进行一个拷贝，拷贝前后的list里面的元素指向同一个引用。是一种读写分离的思想，保证最终一致性 {#copyonwritearraylist}
 
-##### 线程池有可缓存的线程池cachedThreadPool，可以灵活回收与创建线程，FixedThreadPool 固定数量线程池，ScheduledThreadPool 周期性线程池，SingleThreadPool 单一线程池，保证只有一个线程执行，按先进先出处理任务 {#threadpool}
+##### 线程池有可缓存的线程池cachedThreadPool，可以灵活回收与创建线程，FixedThreadPool 固定数量线程池，ScheduledThreadPool 周期性线程池，SingleThreadPool 单一线程池，保证只有一个线程执行，按先进先出处理任务。Executors工厂类创建线程池，Executor线程池接口。都是继承自ThreadPoolExecutor {#threadpool}
 
 
 
