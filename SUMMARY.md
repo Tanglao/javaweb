@@ -11,4 +11,5 @@
   * [JAVA](chapter2/java.md)
   * [JAVA多线程](chapter2/javaduo-xian-cheng.md)
   * [storm](storm.md)
+  * [redis](chapter2/redis.md)
 
