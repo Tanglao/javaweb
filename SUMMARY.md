@@ -12,4 +12,5 @@
   * [JAVA多线程](chapter2/javaduo-xian-cheng.md)
   * [storm](storm.md)
   * [redis](chapter2/redis.md)
+  * [分布式中间件](fen-bu-shi-zhong-jian-jian.md)
 
