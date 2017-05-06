@@ -15,4 +15,5 @@
   * [消息中间件](fen-bu-shi-zhong-jian-jian.md)
   * [分布式数据库](chapter2/fen-bu-shi-shu-ju-ku.md)
   * [分布式](chapter2/fen-bu-shi.md)
+  * [zookeeper](chapter2/zookeeper.md)
 
