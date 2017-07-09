@@ -18,7 +18,5 @@ feigin：封装客户端调用
 
 zuul：实现本地跳转、请求过滤、重定向
 
-hystrix：
-
-
+hystrix：观察着模式、RxJava
 
