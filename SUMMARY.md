@@ -18,5 +18,12 @@
   * [zookeeper](chapter2/zookeeper.md)
   * [高并发](chapter2/gao-bing-fa.md)
   * [高可用](chapter2/gao-ke-yong.md)
-* [springcloud](springcloud.md)
+* [典型问题](dian-xing-wen-ti.md)
+* [读书总结](du-shu-zong-jie.md)
+  * [2018](du-shu-zong-jie/2018.md)
+    * [Info-kylin](du-shu-zong-jie/2018/info-kylin.md)
+    * [DTCC2018-ITPUB](du-shu-zong-jie/2018/dtcc2018-itpub.md)
+  * [2017](du-shu-zong-jie/2017.md)
+    * [springcloud](du-shu-zong-jie/2017/springcloud.md)
+* [规划](gui-hua.md)
 
