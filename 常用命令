@@ -1,0 +1,12 @@
+### git
+1、回滚merge
+git reset --hard HEAD
+2、maven 依赖树
+mvn dependency:tree -Dverbose -Dincludes
+
+### shell
+1、模糊匹配替换 sed -i '' 's/<typeAlias.*/''/g' *.xml  
+2、删除匹配行 sed -i '' '/pattern/d' 
+3、插入行 sed -i '' '/pattern/a\
+inserttext'
+4、显示匹配行 sed -n  '/pattern/p'
