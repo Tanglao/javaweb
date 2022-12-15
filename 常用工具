@@ -1,0 +1,6 @@
+## 截图录屏
+LiceCap
+
+## 性能优化
+perf：https://www.brendangregg.com/perf.html
+perf-map-agent：https://github.com/jvm-profiling-tools/perf-map-agent
