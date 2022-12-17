@@ -9,4 +9,9 @@
 
 
 
-* IO模型 https://segmentfault.com/a/1190000003063859
+* IO模型 
+ https://segmentfault.com/a/1190000003063859、
+ https://leetcode.cn/circle/discuss/ylV7i6/
+ * blocking io，一个socket一个用户进程，阻塞
+ * mutil io 内核监听多个socket ，就绪则交给用户进程
+ * epoll 事件驱动，监听就绪事件，不用轮询socket，减少消耗，且减少socket状态从内核到用户进程的拷贝
